@@ -1,11 +1,12 @@
 # RESP
 
-作为`Reids server`和`client`通信的一种协议（字符串表示），
-有以下这么几种类型
+一个字符串的协议，标记了类型，数据长度信息。
 
-- integers
-- strings
-- arrays
-- errors
+1. strings
+2. integers
+3. arrays
+4. errors
 
-这里的协议只用于`server`和`client`通信上
+数据类型依赖首个字节。
+
+1. 单行字符串，首字节为`*+*`
