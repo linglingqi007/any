@@ -2,13 +2,6 @@
 
 字符串的协议，标记了类型，数据长度信息。
 
-
-
-
-
-
-
-
 1. strings
 2. integers
 3. arrays
